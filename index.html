@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laxman Yadav Singanaboina - DevOps Engineer</title>
+
+    <!-- Bootstrap CSS from CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <!-- Your Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Laxman Yadav</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero" class="d-flex align-items-center text-center">
+        <div class="container">
+            <h1 class="display-3 text-white">DevOps & Cloud Engineering</h1>
+            <p class="lead text-white-50">Building and automating robust, scalable infrastructure.</p>
+            <a href="#contact" class="btn btn-primary btn-lg mt-3">Get In Touch</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 class="mb-4">About Me</h2>
+                    <p>Hello! I'm a passionate DevOps Engineer with experience in cloud infrastructure, CI/CD pipelines, and containerization. I thrive on solving complex problems and automating everything to improve development cycles and system reliability.</p>
+                    <p>My goal is to bridge the gap between development and operations, fostering a culture of collaboration and efficiency.</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <!-- You can put a profile picture here -->
+                    <img src="https://via.placeholder.com/300" class="img-fluid rounded-circle" alt="Your Name">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="mb-5">Core Skills</h2>
+            <div class="row">
+                <div class="col-md-3 col-6 mb-4"><i class="fab fa-aws fa-3x"></i><p>AWS</p></div>
+                <div class="col-md-3 col-6 mb-4"><i class="fab fa-docker fa-3x"></i><p>Docker</p></div>
+                <div class="col-md-3 col-6 mb-4"><i class="fas fa-sitemap fa-3x"></i><p>Kubernetes</p></div>
+                <div class="col-md-3 col-6 mb-4"><i class="fab fa-git-alt fa-3x"></i><p>Git / GitHub</p></div>
+                <div class="col-md-3 col-6 mb-4"><i class="fas fa-terminal fa-3x"></i><p>Terraform</p></div>
+                <div class="col-md-3 col-6 mb-4"><i class="fab fa-jenkins fa-3x"></i><p>Jenkins</p></div>
+                <div class="col-md-3 col-6 mb-4"><i class="fab fa-python fa-3x"></i><p>Python</p></div>
+                <div class="col-md-3 col-6 mb-4"><i class="fas fa-shield-alt fa-3x"></i><p>Security</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Featured Projects</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">CI/CD Pipeline for Microservices</h5>
+                            <p class="card-text">Automated build, test, and deployment pipeline using Jenkins, Docker, and Kubernetes for a Python-based application.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Infrastructure as Code (IaC)</h5>
+                            <p class="card-text">Managed AWS resources (VPC, EC2, S3) declaratively using Terraform, ensuring consistent environments.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Containerized Web Application</h5>
+                            <p class="card-text">Dockerized a Flask application and deployed it to Amazon ECS with load balancing and auto-scaling.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-dark text-white">
+        <div class="container text-center">
+            <h2>Contact</h2>
+            <p class="lead">Let's connect! Find me on:</p>
+            <a href="#" class="btn btn-outline-light btn-lg m-2"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="#" class="btn btn-outline-light btn-lg m-2"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 text-center">
+        <p>© 2025 Laxman Yadav. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS from CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
